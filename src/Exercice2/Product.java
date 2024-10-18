@@ -1,2 +1,5 @@
-package Exercice2;public interface Product {
+package Exercice2;
+
+public interface Product {
+    void use();
 }

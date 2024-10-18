@@ -1,4 +1,5 @@
 package Exercice3;
 
-public interface AbstractProductA {
+public interface AbstractProductB {
+    void use();
 }

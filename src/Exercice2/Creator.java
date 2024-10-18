@@ -1,13 +1,10 @@
 package Exercice2;
 
-public class createProduct {
-    public Product createProduct(String type) {
-        if (type.equals("A")) {
-            return new ConcreteProductA();
-        } else if (type.equals("B")) {
-            return new ConcreteProductB();
-        }
+import java.util.Optional;
+
+public  abstract class Creator {
+    public Optional <Product> createProduct() {
         return null;
     }
 }
-}
+
